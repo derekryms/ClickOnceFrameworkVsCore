@@ -1,0 +1,17 @@
+﻿<Window x:Class="TestingUserSettings.Core.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestingUserSettings.Core"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Closed="Window_Closed">
+    <Grid>
+        <TextBlock x:Name="firstNameTBlock" HorizontalAlignment="Left" Margin="53,51,0,0" TextWrapping="Wrap" Text="First Name" VerticalAlignment="Top"/>
+        <TextBlock x:Name="lastNameTBlock" HorizontalAlignment="Left" Margin="53,83,0,0" TextWrapping="Wrap" Text="Last Name" VerticalAlignment="Top"/>
+        <TextBox x:Name="firstNameTBox" HorizontalAlignment="Left" Margin="144,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="lastNameTBox" HorizontalAlignment="Left" Margin="144,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="updateNeededTBlock" HorizontalAlignment="Left" Margin="53,120,0,0" TextWrapping="Wrap" Text="Update Needed" VerticalAlignment="Top"/>
+        <TextBlock x:Name="updateNeededTBlock2" HorizontalAlignment="Left" Margin="176,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
